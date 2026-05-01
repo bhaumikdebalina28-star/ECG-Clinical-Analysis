@@ -9,9 +9,9 @@ logic to extract clinical metrics (BPM).
 - **Signal Cleaning:** Butterworth Bandpass filtering (0.5-40Hz).
 - **Peak Detection:** Automated QRS detection using the `xqrs` algorithm.
 - **Clinical AnInteractalysis:** Automated classification of Tachycardia and Bradycardia
-- ** Interactive UI: ** Used Plotly to build interactive, zoomable ECG visualizations. Read more about creating these layouts in the Plotly documentation.
-- ** Dual View: ** Side-by-side layout for instant visual verification of DSP filters.
-- ** Time-Locked Zoom: ** Linked x-axes ensure identical timeframes during inspection.
+- Interactive UI: Used Plotly to build interactive, zoomable ECG visualizations. Read more about creating these layouts in the Plotly documentation.
+- Dual View: Side-by-side layout for instant visual verification of DSP filters.
+- Time-Locked Zoom: Linked x-axes ensure identical timeframes during inspection.
 
 
 ## Tech Stack
